@@ -1,0 +1,25 @@
+{
+  "name": "mycv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.1",
+    "fs": "^0.0.1-security",
+    "mailparser": "^3.6.9",
+    "nodemailer": "^6.9.9",
+    "nodemailer-mailgun-transport": "^2.1.5",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7",
+    "serverless-http": "^3.2.0"
+  }
+}

@@ -1,0 +1,351 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h5, h4, h6{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* navbar start */
+.navbar {
+    border: none;  /*Remove border */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+  }
+p, .dropdown-item{
+
+font-family:Poppins;
+color: #ffffff;
+font-size: 18px;
+line-height: 1.80857;
+font-weight: normal;
+
+}
+
+.navbar-brand{
+    padding-left: 50px;
+}
+.navbar-nav{
+    margin: auto;
+
+   }
+.nav-link{
+    font-size: large;
+    font-weight: bold;
+
+}
+.dropdown a{
+    color: #666666;
+
+}
+
+.search{
+    padding-left: 50px;
+    margin-right: 0;
+    padding-right: 0;
+}
+/* navbar end */
+
+/* carousel start */
+.apostolic h1{
+    text-align: start;
+    font-size: 3rem;
+}
+.apostolic p{
+    text-align: start;
+}
+.webcast{
+    text-align: start;
+}
+@media (max-width: 1200px) {
+    .caro{margin-top:2rem;
+        text-align: start;}
+
+    }
+/* carousel end */
+
+/* Who we are start */
+
+.who h5, p, a{
+    text-align: start;
+    font-family:Poppins;
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+@media (max-width: 1200px) {
+    .who{margin-left:;}
+    
+
+    }
+
+/* who we are end */
+
+/* Schedule of services start */
+
+.schedule{
+    font-family:Poppins;
+    font-style: italic;
+
+}
+.table{
+    width: 70%;
+}
+@media (max-width: 1200px) {
+    .table{width: 100%;}
+
+    }
+.services{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: normal;
+    font-family:Poppins;
+    color: #666666;
+
+}
+/* Schedule of services end */
+
+
+
+
+/* Our mission start */
+.mission{
+    font-family:Poppins;
+    font-style: italic;
+
+}
+.missions{
+    font-family:Poppins;
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+.magazine a{
+    text-align: start;
+    text-decoration: none;
+    font-family:Poppins;
+    font-size: 18px;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+.missions h4{
+    text-align: start;
+    text-decoration: none;
+    font-family:Poppins;
+    font-size: 18px;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+.vertical{
+    border-left: 6px solid blue;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    margin-top: 5rem;
+    margin-left: 17rem;
+   
+   
+}
+@media (max-width: 1200px) {
+    .vertical{display:none;}
+}
+
+.motto h4{
+    margin-top: 12rem;
+    font-family:Poppins;
+    color: #666666;
+}
+@media (max-width: 1200px) {
+    .motto h4{margin-top:1rem;}
+}
+
+/* Our Mission End */
+
+
+
+/* media :start */
+@media (max-width: 1200px) {
+    .media{margin-top:1rem;}
+
+    }
+
+/* Media End */
+
+/* Our Doctrine start */
+.pic img{    
+width: 100%;
+height: auto;
+}
+
+.missions p span a{
+    text-decoration: none;
+}
+
+
+
+.case {
+    width: 100%;
+    z-index: 0;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  @media (max-width: 1200px) {
+     .men{
+        position: relative;
+        z-index: 1; /* Ensure the top image is above the bottom image */
+    }
+}
+
+
+/* Custom CSS to keep dropdown open */
+
+.men{
+    margin-top: 1rem;
+   
+    /* max-height: 350px; 
+    overflow-y: auto; */
+}
+
+/* Our Doctrine End */
+
+
+/* contact us start */
+.contact_us{
+    background-color:#fff3cd;
+    padding-bottom: 4rem;
+    }
+
+
+.let{
+    width: 45%;
+    padding-left: 5rem;
+}
+@media (max-width: 980px) {
+    .let{padding: 2rem;
+        width: 100%; }
+         
+}
+.talk{
+    text-align: center;
+    width: 17%;
+    padding: 3px;
+    background-color: red;
+    color: #ffffff;
+}
+@media (max-width: 980px) {
+    .talk{width: 20%; 
+       }
+}
+.cont{
+    margin-bottom: 5rem;
+}
+.map{
+    padding-left: 2rem;
+}
+.map img{
+    width: 35px;   
+}
+
+.indicate p{
+    font-style: italic;
+    }
+
+.send_mail{
+container: none;
+padding: 1rem;
+width: 45%;
+background-color: #ffffff;
+}
+@media (max-width: 980px) {
+    .send_mail{ width: fit-content; 
+                margin: 1rem;}
+}
+@media (max-width: 980px) {
+    .lastname{margin-top: 1rem; }
+}
+
+.label_name{
+    margin-top: 2rem;
+}
+
+button.contact-button{
+    margin: 40px 0 15px 0 ;
+}
+
+/* contact us end*/ 
+
+
+/* picture start */  
+.image-gallery {
+    cursor: pointer;
+}
+.image-gallery:hover {
+    opacity: 70%;
+}
+.image-gallery figcaption{
+    font-family:Poppins;
+    font-size: 18px;
+    line-height: 1.80857;
+    font-weight: normal;
+    color: #eb763c;
+}
+
+
+
+/* picture end */
+
+/* footer start */
+.footer_section{
+    padding-top: 2rem;
+    background-color: #0F1A2A;
+   
+    background-repeat: no-repeat;
+    background-size:contain;
+
+}
+.footer_section h6{
+    color: white;
+    font-weight: lighter;
+}
+.footer_section p{
+    color: #6c757d;
+    font-family:Poppins;
+    font-size: 18px;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+.social_box img{
+    width: 35px;
+    margin-bottom: 15px
+}
+.world-link a{
+    text-decoration: none;
+}
+.footer .white-paragraph, img{
+    text-align: center;
+    color: white;
+    font-family:Poppins;
+    font-size: 18px;
+    line-height: 1.80857;
+    font-weight: normal;
+}
+/* footer end */
+
+
+.faith{
+    text-align: center;
+}
+
